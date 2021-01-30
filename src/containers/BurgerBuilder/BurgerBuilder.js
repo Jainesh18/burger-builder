@@ -43,7 +43,7 @@ class BurgerBuilder extends Component {
     }
 
     purchaseContinueHandler=()=>{
-        alert('You Continue!');
+        alert('A Burger for you with lots of Love❤!');
     }
 
     addIngredientHandler = (type) => {
