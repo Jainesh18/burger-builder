@@ -12,11 +12,11 @@
     transition:transform 0.3 ease-out;
 }
 
-@media (min-width:500px){
+/* @media (min-width:500px){
     .SideDrawer{
         display:none;
     }
-}
+} */
 
 .Open{
     transform:translateX(0); /*this will basically shift the sideDrawer to the position defined up*/

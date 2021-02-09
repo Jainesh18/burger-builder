@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Aux from '../../../hoc/Auxiliary';
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
     //This can be a functional component, doesnt have to be a class component!
-    componentDidUpdate(){
+    componentDidUpdate() {
         console.log('[OderSummary] Will Update');
     }
     render() {
+
         const ingredientSummary = Object.keys(this.props.ingredients).map(igKey => {
             return (
                 <li key={igKey}>
